@@ -65,10 +65,10 @@ export const projectsData = [
   {
     title: "Discord Generative Ai- bot",
     description:
-      "Developed a Discord AI bot with image recognition, generative AI, and chat-based text generation using Node.js and Google Palm2.",
-    tags: ["Nodejs", "Google Palm2", "Discord.js", "Tessaract.js"],
+      "Developed a Discord AI bot Which can generate Images,Utilized lucataco's sdx Ai Image Generator Model.",
+    tags: ["Nodejs", "AI Image Generator Model", "Discord.js"," Typsecript"],
     imageUrl: corpcommentImg,
-    clickURL: "https://discord.com/api/oauth2/authorize?client_id=1173867759298429018&permissions=8&scope=bot"
+    clickURL: "https://github.com/sandy088/Discord-Ai-Art-Generator-bot"
   },
   {
     title: "Study Notion",
