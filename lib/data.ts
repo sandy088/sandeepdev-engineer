@@ -6,6 +6,7 @@ import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 import ytclone from "@/public/ytclone.png";
+import thumbnailImg from "@/public/thumbnailImg.png";
 
 export const links = [
   {
@@ -63,12 +64,12 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Discord Generative Ai- bot",
+    title: "Otion-FullStack Notion Clone",
     description:
-      "Developed a Discord AI bot Which can generate Images,Utilized lucataco's sdx Ai Image Generator Model.",
-    tags: ["Nodejs", "AI Image Generator Model", "Discord.js"," Typsecript"],
-    imageUrl: corpcommentImg,
-    clickURL: "https://github.com/sandy088/Discord-Ai-Art-Generator-bot"
+      "Developed a Realtime full-stack Notion clone with all the features Notion has.",
+    tags: ["Realtime", "Nextjs14", "Typsecript","Convex"],
+    imageUrl: thumbnailImg,
+    clickURL: "https://otion-documentation-app.vercel.app/"
   },
   {
     title: "Study Notion",
@@ -86,6 +87,7 @@ export const projectsData = [
     imageUrl: wordanalyticsImg,
     clickURL: "https://sendyy-bulk-email-sender.vercel.app/"
   },
+  
   {
     title: "Youtube Clone",
     description:
@@ -93,7 +95,15 @@ export const projectsData = [
     tags: ["React", "Youtube API","Tailwind", "Context API"],
     imageUrl: ytclone,
     clickURL: "https://youtube-clone-react-indol.vercel.app/"
-  }
+  },
+  {
+    title: "Discord Generative Ai- bot",
+    description:
+      "Developed a Discord AI bot Which can generate Images,Utilized lucataco's sdx Ai Image Generator Model.",
+    tags: ["Nodejs", "AI Image Generator Model", "Discord.js"," Typsecript"],
+    imageUrl: corpcommentImg,
+    clickURL: "https://github.com/sandy088/Discord-Ai-Art-Generator-bot"
+  },
 ] as const;
 
 export const skillsData = [
