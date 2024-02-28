@@ -3,7 +3,6 @@
 import React from "react";
 import SectionHeading from "./section-heading";
 import { projects } from "@/lib/data";
-import Project from "./project";
 import { useSectionInView } from "@/lib/hooks";
 import Image from "next/image";
 import { PinContainer } from "./3d-pin";
