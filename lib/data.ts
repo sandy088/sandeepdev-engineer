@@ -1,13 +1,15 @@
 import React from "react";
 import { FaReact } from "react-icons/fa";
-import { FaProjectDiagram } from "react-icons/fa";
-import { VscGithubAction } from "react-icons/vsc";
+import { SiNextdotjs } from "react-icons/si";
+
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 import ytclone from "@/public/ytclone.png";
 import thumbnailImg from "@/public/thumbnailImg.png";
 
+// import { FaProjectDiagram } from "react-icons/fa";
+// import { VscGithubAction } from "react-icons/vsc";
 export const links = [
   {
     name: "Home",
@@ -37,28 +39,29 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Open Source Contributor",
-    location: "@Hactoberfest 2023",
+    title: "Freelance Full-Stack Developer",
+    location: "Self-Employed",
     description:
-      `Participated in Hacktoberfest 2023, earned swags & goodies for submitting four successful pull requests to diverse open source projects. Developed valuable skills in open source development, including contributing to codebases, writing documentation, and collaborating with other developers. Among the first 40,000 contributors awarded with swags and goodies.`,
-    icon: React.createElement(VscGithubAction),
-    date: "2023",
+      "Currently freelancing with a focus on creating robust, user-friendly applications. Adept at translating ideas into functional and aesthetically pleasing digital experiences.",
+    icon: React.createElement(SiNextdotjs),
+    date: "2023 - present",
   },
   {
-    title: "Open Source Contributor ",
-    location: "GSSOC 2023",
+    title: "Full Stack Developer Intern",
+    location: "@Curious Ecosystem",
     description:
-      "Participated in GSSOC 2023, and Gained lots of learning about open source projects and collborate with developers worldwide",
-    icon: React.createElement(FaProjectDiagram),
-    date: "2023",
+      "Contributed significantly to a closed-source project, leading frontend development efforts. Utilized my expertise to implement and optimize features, fostering collaboration and innovation within the team.",
+    icon: React.createElement(SiNextdotjs),
+    date: "December 2023 - Feb 2024",
   },
+  
   {
-    title: "Full-Stack Developer",
-    location: "Freelancer",
+    title: "Full Stack Developer Intern",
+    location: "@Sensation Software Solutions Pvt. Ltd.",
     description:
-      "I'm a full-stack developer working as a freelancer. My stack includes React, Redux, TypeScript, Tailwind, Nodejs, Express.js, GraphQL, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Engaged in a six-month internship, contributing to various aspects of full-stack development. Worked on diverse projects, enhancing skills in both frontend and backend technologies.",
     icon: React.createElement(FaReact),
-    date: "2022 - present",
+    date: "July 2023 - December 2023",
   },
 ] as const;
 

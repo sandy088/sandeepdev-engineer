@@ -13,3 +13,6 @@ html.dark {
 .borderBlack {
   @apply border border-black/10;
 }
+body {
+  scroll-behavior: smooth;
+}
