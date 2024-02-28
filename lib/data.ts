@@ -10,6 +10,16 @@ import thumbnailImg from "@/public/thumbnailImg.png";
 
 // import { FaProjectDiagram } from "react-icons/fa";
 // import { VscGithubAction } from "react-icons/vsc";
+
+
+interface projectsProps{
+  title: string
+  description: string,
+  href: string,
+  imgUrl: string,
+  skills: string[]
+}  
+
 export const links = [
   {
     name: "Home",
@@ -65,49 +75,47 @@ export const experiencesData = [
   },
 ] as const;
 
-export const projectsData = [
+export const projects:projectsProps[] = [
   {
-    title: "Otion-FullStack Notion Clone",
-    description:
-      "Developed a Realtime full-stack Notion clone with all the features Notion has.",
-    tags: ["Realtime", "Nextjs14", "Typsecript","Convex"],
-    imageUrl: thumbnailImg,
-    clickURL: "https://otion-documentation-app.vercel.app/"
+    title: "Otion- Full Stack Notion Clone",
+    description: "Realtime Sync, Rich Text Editior, Dark Mode, User Authentication, and more.",
+    href: "https://otion-documentation-app.vercel.app/",
+    imgUrl: "https://res.cloudinary.com/daqa5apjj/image/upload/v1708493057/302348507-43fc4c76-e234-4554-9b39-318949efd506_iuv2oa.jpg",
+    skills:['nextjs14','convex','tailwindcss','typsecript','react']
   },
   {
-    title: "Study Notion",
-    description:
-      "online course selling and consuming platform built from scratch using the MERN stack.",
-    tags: ["React", "Tailwind", "Redux toolkit", "Node.js", "Razorpay", "MongoDB"],
-    imageUrl: rmtdevImg,
-    clickURL: "https://studynotion-sepia.vercel.app/"
+    title: "StudyNotion- An Ed-tech Platform",
+    description: "A Full-Stack Edtech Platform for everyone, Sell & Consume Courses",
+    href: "https://studynotion-sepia.vercel.app/",
+    imgUrl: "https://res.cloudinary.com/daqa5apjj/image/upload/v1707841340/248786666-86f7fd32-2a33-4f2e-93d6-4034fe5e741d_s8z73o.jpg",
+    skills:['Reactjs','Expressjs','Nodejs','MongoDB','tailwindcss']
   },
   {
     title: "Sendyy -Bulk E-mail Sender",
     description:
-      "Developed a robust bulk email sending application with role-based login, email list management, and impressive design",
-    tags: ["React", "Express.js", "MongoDB", "Tailwind", "Nodejs"],
-    imageUrl: wordanalyticsImg,
-    clickURL: "https://sendyy-bulk-email-sender.vercel.app/"
+      "A Robust & free bulk emial sender for everyone",
+    skills: ["React", "Express.js", "MongoDB", "Tailwind", "Nodejs"],
+    imgUrl: 'https://res.cloudinary.com/daqa5apjj/image/upload/v1708356731/Screenshot_2023-11-22_163611_lkp8uw.jpg',
+    href: "https://sendyy-bulk-email-sender.vercel.app/"
   },
   
   {
     title: "Youtube Clone",
     description:
-      "Utilized the YouTube API to fetch and display a variety of content, including trending videos, live streams, popular channels, etc.",
-    tags: ["React", "Youtube API","Tailwind", "Context API"],
-    imageUrl: ytclone,
-    clickURL: "https://youtube-clone-react-indol.vercel.app/"
+      "Youtube UI Clone with Search, Live videos, trending,etc.",
+    skills: ["React", "Youtube API","Tailwind", "Context API"],
+    imgUrl: 'https://res.cloudinary.com/daqa5apjj/image/upload/v1708356733/Screenshot_2023-11-22_170909_m1rqyy.jpg',
+    href: "https://youtube-clone-react-indol.vercel.app/"
   },
-  {
-    title: "Discord Generative Ai- bot",
-    description:
-      "Developed a Discord AI bot Which can generate Images,Utilized lucataco's sdx Ai Image Generator Model.",
-    tags: ["Nodejs", "AI Image Generator Model", "Discord.js"," Typsecript"],
-    imageUrl: corpcommentImg,
-    clickURL: "https://github.com/sandy088/Discord-Ai-Art-Generator-bot"
-  },
-] as const;
+  // {
+  //   title: "Discord Generative Ai- bot",
+  //   description:
+  //     "A Generative-Ai Discord bot Which can generate Images",
+  //   skills: ["Nodejs", "AI Image Generator Model", "Discord.js"," Typsecript"],
+  //   imgUrl: 'https://res.cloudinary.com/daqa5apjj/image/upload/v1708356731/Code_Ai_fep9hs.png',
+  //   href: "https://github.com/sandy088/Discord-Ai-Art-Generator-bot"
+  // },
+];
 
 export const skillsData = [
   "HTML",
